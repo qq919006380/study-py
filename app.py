@@ -1,6 +1,6 @@
 print("hello",'word')
 
-name = input('请输入名称')
+name = input('请输入名称：')
 
 print("name is :"+name)
 # 多行
@@ -23,3 +23,5 @@ if  1>2:
     print(True)
 else:
     print(False)
+
+print("len",len('abc'))

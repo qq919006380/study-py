@@ -25,3 +25,7 @@ else:
     print(False)
 
 print("len",len('abc'))
+array=[1,2,3,4,5]
+array.append(0)
+print(array)
+print(array[0])

@@ -1,8 +1,11 @@
 print("hello",'word')
 
 name = input('请输入名称：')
+if name:
+    print("name is :"+name)
+else:
+    print('请输入正确的名称')
 
-print("name is :"+name)
 # 多行
 print("换行： line1 \n line3 \n line3")
 
@@ -27,5 +30,18 @@ else:
 print("len",len('abc'))
 array=[1,2,3,4,5]
 array.append(0)
-print(array)
-print(array[0])
+print(type(array),array,array[0])
+
+t=(1) #小括号进行计算
+t1=(1,) #表示tuple
+print(type(t),type(t1))
+
+for item in array:
+    print("item",item)
+
+n=0
+while n<3:
+    print(n)
+    n=n+1
+
+print(type(range(5)),list(range(5)))

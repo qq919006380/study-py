@@ -50,3 +50,8 @@ obj={"a":"aaa","b":"bbb"}
 print("obj",obj["a"])
 
 print(type(obj),type([]),type((1,2)),type(1),type('str'),type(True))
+
+def sum(x,y):
+    return x+y
+
+print('sum',sum(1,2))
